@@ -1,29 +1,24 @@
 {
-  "name": "js-native-blog",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "js native blog",
+  "description": "blog native js",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "nodemon"
+    "dev": "webpack --mode development"
   },
-  "keywords": [
-    "js",
-    "javascript"
-  ],
   "author": "Pavel Baranov",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.12.0",
-    "@babel/core": "^7.12.0",
-    "@babel/preset-env": "^7.12.0",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.5.0",
-    "nodemon": "^2.0.5",
-    "webpack": "^5.1.1",
+    "webpack": "^5.1.2",
     "webpack-cli": "^4.0.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.11.5"
+    "@babel/polyfill": "^7.12.1"
   }
 }
