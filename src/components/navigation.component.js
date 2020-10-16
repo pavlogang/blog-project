@@ -8,7 +8,7 @@ export class NavigationComponent extends Component {
 	}
 	
 	init() {
-		this.$el.addEventListener('click', tabClickHendler.bind(this))
+		this.$el.addEventListener('click', tabClickHandler.bind(this))
 	}
 	
 	registerTabs(tabs) {
@@ -17,7 +17,7 @@ export class NavigationComponent extends Component {
 }
 
 
-function tabClickHendler(event) {
+function tabClickHandler(event) {
 	event.preventDefault()
 	if (event.target.classList.contains('tab')) {
 		Array.from(this.$el.querySelectorAll('.tab')).forEach(tab => {
