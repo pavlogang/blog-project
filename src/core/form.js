@@ -11,5 +11,16 @@ export class Form {
 		})
 		return value
 	}
+
+
+	isValid() {
+		let isFormValid = true;
+
+		Object.keys(this.controls).forEach(control => {
+			
+		})
+
+		return isFormValid
+	}
 	
 }
